@@ -1,5 +1,6 @@
 module consul-kv-deserializer
 
+
 go 1.21
 
 require (
@@ -19,3 +20,6 @@ require (
 	golang.org/x/exp v0.0.0-20230321023759-10a507213a29 // indirect
 	golang.org/x/sys v0.10.0 // indirect
 )
+
+replace ./consul-kv-deserializer => github.com/whitekeep/consul-kv-deserializer v0.0.0
+
